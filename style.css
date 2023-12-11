@@ -114,17 +114,17 @@
 .moreCards {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row; /* Change the flex direction to row */
+    flex-direction: column; /* Change the flex direction to row */
     border: 5px #263032 solid;
     border-radius: 10px;
     align-items: center; /* Align items to the center vertically */
     justify-content: center; /* Add space between items */
-    padding: 10px; /* Add padding for spacing */
+    padding: 30px; /* Add padding for spacing */
     margin: 40px;
     box-shadow: 25px 15px rgba(0, 0, 0, 0.8);
     background-color: lightcoral;
     width: 33%;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
 }
 
 .cardTitles {
@@ -146,6 +146,7 @@
     border-radius: 3px;
     background-color: #263032;
     margin-top: 5%;
+    margin-bottom: 20%;
 }
 
 .titleLinks a {
@@ -287,14 +288,18 @@
 }
 
 .navErino {
+    display: flex;
     list-style-type: none;
     flex-wrap: wrap;
-    display: flex;
     flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
 }
 
 .listNav {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     border: #263032 solid;
     box-shadow: 8px 8px rgba(0, 0, 0, 0.8);
@@ -327,6 +332,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+
     border: #263032 solid;
     box-shadow: 8px 8px rgba(0, 0, 0, 0.8);
     margin-top: 15px;
