@@ -1,0 +1,27 @@
+
+HTML
+<div class="cursor-dot" style="will-change: transform; transform: translate3d(4.922vw, 49.99vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"></div>
+CSS
+.cursor-dot {
+  width: 11px;
+  height: 11px;
+  color: #fff;
+  cursor: none;
+  mix-blend-mode: exclusion;
+  background-color: rgba(255, 255, 255, .7);
+  border: 1px solid #fff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  line-height: 13;
+
+element {
+  will-change: transform;
+  transform: translate3d(-1.286vw, 49.99vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+  transform-style: preserve-3d;
+}
+
+.cursor-wrap {
+  pointer-events: none;
+}
