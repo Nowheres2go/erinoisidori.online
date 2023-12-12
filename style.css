@@ -264,6 +264,7 @@
     font-size: 25px;
     margin-left: 5%;
     margin-right: 5%;
+    text-align: center;
 }
 
 .erinoCLRTitle {
@@ -324,22 +325,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
+    text-align: center;
+    margin-top: -15%;
 }
 
 .contactNav {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-
     border: #263032 solid;
     box-shadow: 8px 8px rgba(0, 0, 0, 0.8);
     margin-top: 15px;
-    margin-left: 20px;
+    margin-left: 20%;
+    margin-right: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+
     border-radius: 10px;
-    padding-right: 100px;
-    padding-right: 100px;
     text-align: center;
     font-style: oblique;
     font-family: Arial, sans-serif;
@@ -349,17 +352,19 @@
     text-shadow: 2px 2px 1px black;
     background-image: url("wa142.gif");
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+
 }
 
 .contactIcons{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 25%; /* Make sure the image doesn't exceed its container */
+    flex-wrap:wrap;
+    max-height: 35%;
+    max-width: 35%;
     justify-content: center;
-    align-items: center;
-    padding-left: 50%;
+    padding-left: 35%;
+
 
 }
 /* The container <div> - needed to position the dropdown content */
