@@ -55,7 +55,11 @@
     padding-right: -400px;
 
 }
-
+#containsContainerRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #erinoPicture {
     display: flex;
     flex-direction: column;
@@ -146,6 +150,7 @@
     border-radius: 3px;
     background-color: #263032;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .titleLinks a {
@@ -325,7 +330,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: -15%;
+    margin-top: -5%;
 }
 
 .contactNav {
@@ -363,9 +368,53 @@
     max-width: 35%;
     justify-content: center;
     padding-left: 35%;
+}
+.listWork {
+    list-style-type: none;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -15%;
+}
 
+.worksList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: #263032 solid;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.8);
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+    border-radius: 10px;
+    text-align: center;
+    font-style: oblique;
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #263032;
+    text-shadow: 2px 2px 1px black;
+    background-image: url("wa142.gif");
+    justify-content: center;
 
 }
+
+#aboutMePicture{
+    display: flex;
+    flex-direction: column;
+    max-width: 25%; /* Make sure the image doesn't exceed its container */
+    border: 5px #263032 solid;
+    border-radius: 10px;
+    margin-bottom: -3%;
+}
+
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
