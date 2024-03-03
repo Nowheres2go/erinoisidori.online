@@ -141,6 +141,11 @@ html
     box-shadow: 25px 15px rgba(0, 0, 0, 0.8);
     background-color: lightcoral;
     flex-basis: 30%;
+    transition: transform 0.5s ease-in-out; /* <---- NEW!!! */
+}
+
+.moreCards:hover {
+    transform: scale(1.1); /* <---- NEW!!! */
 }
 
 .cardTitles {
@@ -154,7 +159,7 @@ html
     font-style: oblique;
     font-family: Arial, sans-serif;
     text-decoration: underline #263032;
-    -webkit-text-stroke-width: opx;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #263032;
     text-shadow: 2px 2px 1px black;
     text-align: center;
