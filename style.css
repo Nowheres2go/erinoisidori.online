@@ -28,7 +28,10 @@ html
 .cardContainer {
     display: flex;
     flex-direction: row;
-    margin-top: -25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 64px;
+    padding-block: 64px;
 }
 
 #erinoLinks {
@@ -135,12 +138,9 @@ html
     border: 5px #263032 solid;
     border-radius: 10px;
     align-items: center; /* Align items to the center vertically */
-    padding: 30px; /* Add padding for spacing */
-    margin: 40px;
     box-shadow: 25px 15px rgba(0, 0, 0, 0.8);
     background-color: lightcoral;
-    width: 33%;
-    padding-bottom: 50px;
+    flex-basis: 30%;
 }
 
 .cardTitles {
